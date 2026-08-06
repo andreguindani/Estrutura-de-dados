@@ -1,0 +1,15 @@
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\bin\Debug\net10.0\Palavras.exe
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\bin\Debug\net10.0\Palavras.deps.json
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\bin\Debug\net10.0\Palavras.runtimeconfig.json
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\bin\Debug\net10.0\Palavras.dll
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\bin\Debug\net10.0\Palavras.pdb
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.AssemblyInfoInputs.cache
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.AssemblyInfo.cs
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.csproj.CoreCompileInputs.cache
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.sourcelink.json
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.dll
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\refint\Palavras.dll
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.pdb
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\Palavras.genruntimeconfig.cache
+C:\Users\459942\Estrutura-de-dados\atividades\Palavras\obj\Debug\net10.0\ref\Palavras.dll
