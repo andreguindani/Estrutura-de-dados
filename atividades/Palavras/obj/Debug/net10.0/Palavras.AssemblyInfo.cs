@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Palavras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfda3e4deafb08504474aa2211f894a2215e7d06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad4df50e11d77e63a0319790cef51aba4c258687")]
 [assembly: System.Reflection.AssemblyProductAttribute("Palavras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Palavras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
