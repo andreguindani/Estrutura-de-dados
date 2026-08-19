@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\Palavras.csproj": {}
+    "c:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio2\\Exercicio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\Palavras.csproj": {
+    "c:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio2\\Exercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\Palavras.csproj",
-        "projectName": "Palavras",
-        "projectPath": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\Palavras.csproj",
+        "projectUniqueName": "c:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio2\\Exercicio2.csproj",
+        "projectName": "Exercicio2",
+        "projectPath": "c:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio2\\Exercicio2.csproj",
         "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\obj\\",
+        "outputPath": "c:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config"

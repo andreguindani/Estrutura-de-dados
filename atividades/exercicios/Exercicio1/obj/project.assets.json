@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\Palavras.csproj",
-      "projectName": "Palavras",
-      "projectPath": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\Palavras.csproj",
+      "projectUniqueName": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio1\\Exercicio1.csproj",
+      "projectName": "Exercicio1",
+      "projectPath": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio1\\Exercicio1.csproj",
       "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\Palavras\\obj\\",
+      "outputPath": "C:\\Users\\Andre\\Estrutura-de-dados\\atividades\\exercicios\\Exercicio1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config"

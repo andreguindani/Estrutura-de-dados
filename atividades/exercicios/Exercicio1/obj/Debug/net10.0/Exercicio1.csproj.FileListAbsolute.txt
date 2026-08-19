@@ -1,0 +1,15 @@
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\bin\Debug\net10.0\Exercicio1.exe
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\bin\Debug\net10.0\Exercicio1.deps.json
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\bin\Debug\net10.0\Exercicio1.runtimeconfig.json
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\bin\Debug\net10.0\Exercicio1.dll
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\bin\Debug\net10.0\Exercicio1.pdb
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.AssemblyInfoInputs.cache
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.AssemblyInfo.cs
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.sourcelink.json
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.dll
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\refint\Exercicio1.dll
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.pdb
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\Exercicio1.genruntimeconfig.cache
+C:\Users\Andre\Estrutura-de-dados\atividades\exercicios\Exercicio1\obj\Debug\net10.0\ref\Exercicio1.dll
