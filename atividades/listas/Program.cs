@@ -50,3 +50,34 @@ do{
 
 //listas de tipos abstratos de dados(tad)
 
+List<Person> people = new List<Person>();
+
+//criar uma variavel do tipo Person
+
+Person p1 = new Person();
+
+p1.Name = "João";
+p1.Age = 42;
+p1.Nationality = CountryEnum.BR;
+
+people.Add(p1);
+
+//Adicionando a lista inline
+people.Add(new Person(){Name= "Maria", Age = 39, Nationality = CountryEnum.US});
+
+people.Add(new Person(){Name= "Carlitos", Age = 24, Nationality = CountryEnum.AR});
+
+people.Add(new Person(){Name= "Juanito", Age = 28, Nationality = CountryEnum.PY});
+
+//Exeplo de ordenação de lista generica utilizando o LINQ
+
+
+List<Person> results = people.OrderBy(p => p.Name).ToList();
+
+//Percorremos a lista
+foreach(Person p in results)
+{
+    Console.WriteLine($"Nome: {p.Name}, Idade: {p.Age}, Nac:{p.Nationality}");
+}
+
+//ATV 67,68,69
