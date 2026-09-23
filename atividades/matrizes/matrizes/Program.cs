@@ -1,4 +1,9 @@
-﻿/* Vetores Multi-Dimensionais */
+﻿using System;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+
+/* Vetores Multi-Dimensionais */
 
 //Vetor Bi-Dimensional
 int[, ] numberBi = new int[5,2];
@@ -63,3 +68,130 @@ Console.WriteLine("jaggedNumbers[1][2]= " + jaggedNumbers[1][2]);
 
 
 //tarefa pag 40 ate 42; 47 ate 50
+
+
+
+namespace ArraysAndLists
+{
+    // ==========================================
+    // PÁGINAS 40 ATÉ 42 (Exemplo: Game Map)
+    // ==========================================
+
+    public enum TerrainEnum
+    {
+        GRASS,
+        SAND,
+        WATER,
+        WALL
+    }
+
+    public static class TerrainEnumExtensions
+    {
+        public static ConsoleColor GetColor(this TerrainEnum terrain)
+        {
+            switch (terrain)
+            {
+                case TerrainEnum.GRASS: return ConsoleColor.Green;
+                case TerrainEnum.SAND: return ConsoleColor.Yellow;
+                case TerrainEnum.WATER: return ConsoleColor.Blue;
+                default: return ConsoleColor.DarkGray;
+            }
+        }
+
+        public static char GetChar(this TerrainEnum terrain)
+        {
+            switch (terrain)
+            {
+                case TerrainEnum.GRASS: return '\u201c';
+                case TerrainEnum.SAND: return '\u25cb';
+                case TerrainEnum.WATER: return '\u2248';
+                default: return '\u25cf';
+            }
+        }
+    }
+
+    // ==========================================
+    // PÁGINAS 47 ATÉ 50 (Exemplo: Transport Plan & Selection Sort)
+    // ==========================================
+
+    public static class SelectionSort
+    {
+        public static void Sort<T>(T[] array) where T : IComparable
+        {
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                int minIndex = i;
+                T minValue = array[i];
+
+                for (int j = i + 1; j < array.Length; j++)
+                {
+                    if (array[j].CompareTo(minValue) < 0)
+                    {
+                        minIndex = j;
+                        minValue = array[j];
+                    }
+                }
+
+                Swap(array, i, minIndex);
+            }
+        }
+
+        private static void Swap<T>(T[] array, int first, int second)
+        {
+            T temp = array[first];
+            array[first] = array[second];
+            array[second] = temp;
+        }
+    }
+
+    class Program
+    {
+        // Método auxiliar da página 48
+        private static string[] GetMonthNames()
+        {
+            string[] names = new string[12];
+            for (int month = 1; month <= 12; month++)
+            {
+                DateTime firstDay = new DateTime(DateTime.Now.Year, month, 1);
+                string name = firstDay.ToString("MMMM", CultureInfo.CreateSpecificCulture("en"));
+                names[month - 1] = name;
+            }
+            return names;
+        }
+
+        static void Main(string[] args)
+        {
+            // Código da página 42 (Renderização do Game Map)
+            TerrainEnum[,] map =
+            {
+                {
+                    TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
+                    TerrainEnum.SAND, TerrainEnum.GRASS, TerrainEnum.GRASS,
+                    TerrainEnum.GRASS, TerrainEnum.GRASS, TerrainEnum.GRASS,
+                    TerrainEnum.GRASS
+                },
+                {
+                    TerrainEnum.WATER, TerrainEnum.WATER, TerrainEnum.WATER,
+                    TerrainEnum.WATER, TerrainEnum.WATER, TerrainEnum.WATER,
+                    TerrainEnum.WATER, TerrainEnum.WALL, TerrainEnum.WATER,
+                    TerrainEnum.WATER
+                }
+            };
+
+            Console.OutputEncoding = UTF8Encoding.UTF8;
+
+            for (int row = 0; row < map.GetLength(0); row++)
+            {
+                for (int column = 0; column < map.GetLength(1); column++)
+                {
+                    Console.ForegroundColor = map[row, column].GetColor();
+                    Console.Write(map[row, column].GetChar() + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.ForegroundColor = ConsoleColor.Gray;
+
+        }
+    }
+}
