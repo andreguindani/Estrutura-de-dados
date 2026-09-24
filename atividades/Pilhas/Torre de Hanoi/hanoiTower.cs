@@ -1,4 +1,5 @@
-public class HanoiTower
+namespace TorreHanoi{
+public class HanoiTowers
 {
     public int DiscsCount{ get; private set;}
     public int MovesCount { get; private set; }
@@ -8,7 +9,7 @@ public class HanoiTower
 
     public event EventHandler<EventArgs> MoveCompleted;
 
-    public HanoiTower (int discs)
+    public HanoiTowers (int discs)
     {
         DiscsCount = discs;
         From = new Stack<int> ();
@@ -40,4 +41,5 @@ public class HanoiTower
             Move( discs -1, auxiliary, to, from);
         }
     }
+}
 }
