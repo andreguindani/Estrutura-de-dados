@@ -1,9 +1,13 @@
-public class Automovel
+namespace CadastroAutomoveis
 {
-    public string Placa { get; set; } = "";
-    public string Marca { get; set; } = "";
-    public string Modelo { get; set; } = "";
-    public int Ano { get; set; }
-    public string Cor { get; set; } = "";
-    public decimal Valor { get; set; }
+    //Classe com os dados de cada automóvel
+    public class Automovel
+    {
+        public string Placa { get; set; }
+        public string Marca { get; set; }
+        public string Modelo { get; set; }
+        public int Ano { get; set; }
+        public string Cor { get; set; }
+        public double Valor { get; set; }
+    }
 }
