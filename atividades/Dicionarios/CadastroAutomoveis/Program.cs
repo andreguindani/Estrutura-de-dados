@@ -5,7 +5,6 @@ namespace CadastroAutomoveis
 
     public class Program
     {
-        //Dicionário com os automóveis: a chave é a placa e o valor é o automóvel
         private static Dictionary<string, Automovel> automoveis = new Dictionary<string, Automovel>();
 
         static void Main(string[] args)
@@ -50,7 +49,6 @@ namespace CadastroAutomoveis
             } while (run);
         }
 
-        //Mostra o texto e lê o que o usuário digitar
         private static string Ler(string texto)
         {
             Console.Write(texto);
@@ -77,7 +75,6 @@ namespace CadastroAutomoveis
                 return;
             }
 
-            //Não permite duas placas iguais
             if (automoveis.ContainsKey(placa))
             {
                 Console.WriteLine("Já existe um automóvel cadastrado com essa placa.");
@@ -89,7 +86,6 @@ namespace CadastroAutomoveis
             carro.Marca = Ler("Marca: ");
             carro.Modelo = Ler("Modelo: ");
 
-            //Validação da entrada do usuário para checar se de fato é um número
             if (!int.TryParse(Ler("Ano: "), out int ano))
             {
                 Console.WriteLine("Ano inválido. Cadastro cancelado.");
@@ -99,9 +95,8 @@ namespace CadastroAutomoveis
 
             carro.Cor = Ler("Cor: ");
 
-            //Valor no formato brasileiro, com vírgula (ex: 78900,50)
             string valorStr = Ler("Valor (ex: 78900,50): R$ ");
-            if (!double.TryParse(valorStr, NumberStyles.Float, CultureInfo.CreateSpecificCulture("pt-br"), out double valor))
+            if (!double.TryParse(valorStr, out var valor));
             {
                 Console.WriteLine("Valor inválido. Cadastro cancelado.");
                 return;

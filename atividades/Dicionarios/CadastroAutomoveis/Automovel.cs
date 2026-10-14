@@ -1,6 +1,5 @@
 namespace CadastroAutomoveis
 {
-    //Classe com os dados de cada automóvel
     public class Automovel
     {
         public string Placa { get; set; }
